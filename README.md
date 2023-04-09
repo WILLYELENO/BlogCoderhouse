@@ -30,7 +30,7 @@ django-crispy-forms==2.0
 - Buscador de posteos por nombre y lenguaje.
 
 #Contribución
-Araceli Edelweis Escudero (co creadora).
+Araceli Edelweis Escudero (co creadora). Ella se encargo del sistema de registro de usuarios como así tambien del sistema de comentarios, entre otros.
 
 #Contacto
 
