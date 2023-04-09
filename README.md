@@ -1,2 +1,37 @@
 # BlogCoderhouse
  Proyecto Final-Eleno Willians - Escudero Araceli
+
+
+
+
+Requisitos
+Python [3.9.7]
+Django [4.2]
+Markdown==3.4.3
+Pillow==9.5.0
+crispy-bootstrap5==0.7
+django-crispy-forms==2.0
+
+#Instalación
+-Clona este repositorio en tu máquina local.
+-Crea un entorno virtual e instala los requisitos del proyecto usando pip install -r requirements.txt.
+-Realiza las migraciones de la base de datos usando python manage.py migrate.
+-Crea un superusuario usando python manage.py createsuperuser.
+-Inicia el servidor de desarrollo usando python manage.py runserver.
+-Abre tu navegador web y accede a http://localhost:8000/ para ver el proyecto en funcionamiento.
+
+#Funcionalidades
+-El aplicativo permite la creación de posteos sobre un tema (incluye imagen, titulo y contenido).
+-Se puede agrupar los posteos en categorías, en este caso utilizamos las categorías para agruparlos por lenguaje al que se refiere el posteo
+-Solo el usuario administrador puede crear, modificar y eliminar posteos.
+-Los usuarios no proviligiados (aquellos que esten registrados y logueados) pueden ver los posteos y realizar comentarios.
+- Se preve una función de registro de usuarios.
+- Si no ha iniciado sesión el usuario, solo podrá ver los posteos pero no podrá comentarlos.
+- Buscador de posteos por nombre y lenguaje.
+
+#Contribución
+Araceli Edelweis Escudero (co creadora).
+
+#Contacto
+
+https://www.linkedin.com/in/willians-eleno/
